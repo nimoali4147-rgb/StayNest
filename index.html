@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StayNest | Hotels</title>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-       <style type="text/tailwindcss">
-     
-      </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+
+    </style>
 </head>
+
 <body>
-  <header>
+    <p>
     <nav class="bg-blue-950 shadow-md">
         <div class="max-w-8xl max-auto px-7 py-5">
             <div class="flex item-center justify-between h-16">
@@ -21,18 +24,164 @@
                 </h1>
                 <!--menu-->
                 <div class="flex item-center gap-20">
-                <ul  class="flex text-lg items-center gap-8 font-bold">
-                    <li><a href="home" class="text-yellow-500 hover:text-white transition duration-300">Home</a></li>
-                    <li><a href="about" class="text-yellow-500 hover:text-white transition duration-300">About Us</a></li>
-                    <li><a href="rooms" class="text-yellow-500 hover:text-white transition duration-300">Rooms</a></li>
-                    <li><a href="contact" class="text-yellow-500 hover:text-white transition duration-300">Contact</a></li>
-                    <li><a href="offers" class="text-yellow-500 hover:text-white transition duration-300">Offers</a></li>
-                    <li><a href="Gallery" class="text-yellow-500 hover:text-white transition duration-300">Gallery</a></li>
-                </ul>
-                <button class="px-4 py-2 h-10 bg-white border-2 border-sky-500 rounded-full  font-bold hover:bg-sky-500 hover:text-white transition duration-300">Login</button>
-            </div>
+                    <ul class="flex text-lg items-center gap-8 font-bold">
+                        <li><a href="home" class="text-yellow-500 hover:text-white transition duration-300">Home</a>
+                        </li>
+                        <li><a href="about" class="text-yellow-500 hover:text-white transition duration-300">About
+                                Us</a></li>
+                        <li><a href="rooms" class="text-yellow-500 hover:text-white transition duration-300">Rooms</a>
+                        </li>
+                        <li><a href="contact"
+                                class="text-yellow-500 hover:text-white transition duration-300">Contact</a></li>
+                        <li><a href="offers" class="text-yellow-500 hover:text-white transition duration-300">Offers</a>
+                        </li>
+                        <li><a href="Gallery"
+                                class="text-yellow-500 hover:text-white transition duration-300">Gallery</a></li>
+                    </ul>
+                    <button>
+                        <a href="login.html"
+                            class="px-4 py-2 h-10 bg-white border-2 border-sky-500 rounded-full  font-bold hover:bg-sky-500 hover:text-white transition duration-300">Login</a>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
-    
-  </header>
+
+    <!--hero section-->
+    <div class="relative">
+
+        <h1
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl font-extrabold -mt-95">
+            Expeience Comfort & Luxury</h1>
+        <p
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-extralight -mt-60">
+            Discover exceptional hospitality, elegant accommodation, and unforgettable moments in the heart of Nairobi.
+        </p>
+
+
+        <div class="w-[1200px] h-36 bg-blue-950 rounded-3xl mx-auto p-6 mt-110">
+
+
+            <div class="flex items-start gap-4">
+
+
+                <div>
+                    <h2 class="text-yellow-500 font-bold mb-2">Destination</h2>
+                    <div
+                        class="w-[220px] h-14 bg-white rounded-lg border-2 border-sky-500 flex items-center px-3 gap-2">
+                        <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                            <img src="asets/location img.jpg" alt="" class="w-7 h-7 object-contain">
+                        </div>
+                        <a href="destination.html" class="text-xl font-semibold text-sky-900 hover:text-blue-600">
+                            Select date
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div>
+                    <h2 class="text-yellow-500 font-bold mb-2">Check-In</h2>
+                    <div
+                        class="w-[220px] h-14 bg-white rounded-lg border-2 border-sky-500 flex items-center px-3 gap-2">
+                        <div class=" flex items-center justify-center">
+                            <img src="asets/calender.jpg" alt="" class="w-7 h-7"">
+                        </div>
+                        <a href=" checkin.html" class="text-xl font-semibold text-sky-900 hover:text-blue-600">
+                            Select date
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <h2 class="text-yellow-500 font-bold mb-2">Check-Out</h2>
+                        <div
+                            class="w-[220px] h-14 bg-white rounded-lg border-2 border-sky-500 flex items-center px-3 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                                <img src="asets/calender.jpg" alt="" class="w-7 h-7 object-contain">
+                            </div>
+
+                            <a href="checkout.html" class="text-xl font-semibold text-sky-900 hover:text-blue-600">
+                                Select date
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <h2 class="text-yellow-500 font-bold mb-2">Guest & Rooms</h2>
+                        <div
+                            class="w-[220px] h-14 bg-white rounded-lg border-2 border-sky-500 flex items-center px-3 gap-2">
+                            <div class="flex items-center justify-center">
+                                <img src="asets/pple icon.jpg" alt="" class="w-9 h-9 object-contain">
+                            </div>
+                            <a href="rooms.html" class="text-xl font-semibold text-sky-900 hover:text-blue-600">
+                                Select date
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                    <div
+                        class="w-[160px] h-14 bg-yellow-500 border-2 border-sky-500 rounded-full flex items-center mt-7 px-3 gap-3">
+
+                        <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                            <img src="asets/seach icon.png" alt="" class="w-4 h-4 object-contain">
+                        </div>
+                        <span class="text-xl font-bold">Search</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="flex justify-center items-center gap-35 mt-18">
+
+            <div class="flex items-center gap-2">
+                <img src="asets/price.png" class="w-6 h-6">
+                <span class="font-semibold text-yellow-500">
+                    Best Price Guarantee
+                </span>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <img src="asets/cancel icon.png" class="w-6 h-6">
+                <span class="font-semibold text-yellow-500">
+                    Free Cancellation
+                </span>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <img src="asets/clock icon.jpg" class="w-6 h-6">
+                <span class="font-semibold text-yellow-500">
+                    24/7 Customer Support
+                </span>
+            </div>
+            </div>
+        </div>
+        <!--footer section-->
+
+        <footer class="bg-blue-950 text-white py-10 mt-16">
+
+    <div class="max-w-7xl mx-auto px-8">
+
+        <h2 class="text-3xl font-bold">
+            Stay<span class="text-yellow-500">Nest</span>
+        </h2>
+
+        <p class="mt-2 text-gray-300">
+            Find. Book. Relax.
+        </p>
+
+        <p class="mt-6 text-sm text-gray-400">
+            © 2026 StayNest. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
